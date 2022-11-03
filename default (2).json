@@ -1,0 +1,249 @@
+{
+    "collision_count_per_million_miles": {
+        "guardrail": {
+            "min_value": 1,
+            "max_value": 100
+        },
+        "has_color_scheme": true,
+        "strong": {
+            "min_value": 0,
+            "max_value": 1
+        },
+        "average": {
+            "min_value": 1,
+            "max_value": 2
+        },
+        "weak": {
+            "min_value": 2,
+            "max_value": 365.8
+        }
+    },
+    "near_collision_count_per_million_miles": {
+        "guardrail": {
+            "min_value": 1,
+            "max_value": 1000
+        },
+        "has_color_scheme": true,
+        "strong": {
+            "min_value": 0,
+            "max_value": 1
+        },
+        "average": {
+            "min_value": 1,
+            "max_value": 2
+        },
+        "weak": {
+            "min_value": 2,
+            "max_value": 7177.416
+        }
+    },
+    "FCW_count_per_million_miles": {
+        "guardrail": {
+            "min_value": 1,
+            "max_value": 2000
+        },
+        "has_color_scheme": true,
+        "strong": {
+            "min_value": 0,
+            "max_value": 0.0
+        },
+        "average": {
+            "min_value": 0.0,
+            "max_value": 1162.766
+        },
+        "weak": {
+            "min_value": 1162.766,
+            "max_value": 17037.49
+        }
+    },
+    "PCW_count_per_million_miles": {
+        "guardrail": {
+            "min_value": 1,
+            "max_value": 2000
+        },
+        "has_color_scheme": true,
+        "strong": {
+            "min_value": 0,
+            "max_value": 0.0
+        },
+        "average": {
+            "min_value": 0.0,
+            "max_value": 1162.766
+        },
+        "weak": {
+            "min_value": 1162.766,
+            "max_value": 17037.49
+        }
+    },
+    "distraction_count_per_moving_hr": {
+        "guardrail": {
+            "min_value": 1,
+            "max_value": 20
+        },
+        "has_color_scheme": true,
+        "strong": {
+            "min_value": 0,
+            "max_value": 0.328
+        },
+        "average": {
+            "min_value": 0.328,
+            "max_value": 5.969
+        },
+        "weak": {
+            "min_value": 5.969,
+            "max_value": 40.255
+        }
+    },
+    "drowsiness_count_per_100_moving_hr": {
+        "guardrail": {
+            "min_value": 1,
+            "max_value": 10
+        },
+        "has_color_scheme": true,
+        "strong": {
+            "min_value": 0,
+            "max_value": 1
+        },
+        "average": {
+            "min_value": 1,
+            "max_value": 2
+        },
+        "weak": {
+            "min_value": 2,
+            "max_value": 10.411
+        }
+    },
+    "cellphone_count_per_moving_hr": {
+        "guardrail": {
+            "min_value": 1,
+            "max_value": 10
+        },
+        "has_color_scheme": true,
+        "strong": {
+            "min_value": 0,
+            "max_value": 0.034
+        },
+        "average": {
+            "min_value": 0.034,
+            "max_value": 1.813
+        },
+        "weak": {
+            "min_value": 1.813,
+            "max_value": 11.885
+        }
+    },
+    "posted_speed_count_per_moving_hr": {
+        "guardrail": {
+            "min_value": 1,
+            "max_value": 100
+        },
+        "has_color_scheme": true,
+        "strong": {
+            "min_value": 0,
+            "max_value": 6.181
+        },
+        "average": {
+            "min_value": 6.181,
+            "max_value": 25.151
+        },
+        "weak": {
+            "min_value": 25.151,
+            "max_value": 46.487
+        }
+    },
+    "max_speeding_duration_hr_per_moving_hr": {
+        "guardrail": {
+            "min_value": 1,
+            "max_value": 1
+        },
+        "has_color_scheme": true,
+        "strong": {
+            "min_value": 0,
+            "max_value": 0.0
+        },
+        "average": {
+            "min_value": 0.0,
+            "max_value": 0.041
+        },
+        "weak": {
+            "min_value": 0.041,
+            "max_value": 0.237
+        }
+    },
+    "acceleration_count_per_moving_hr": {
+        "guardrail": {
+            "min_value": 1,
+            "max_value": 10
+        },
+        "has_color_scheme": true,
+        "strong": {
+            "min_value": 0,
+            "max_value": 0.03
+        },
+        "average": {
+            "min_value": 0.03,
+            "max_value": 0.649
+        },
+        "weak": {
+            "min_value": 0.649,
+            "max_value": 4.832
+        }
+    },
+    "braking_count_per_moving_hr": {
+        "guardrail": {
+            "min_value": 1,
+            "max_value": 10
+        },
+        "has_color_scheme": true,
+        "strong": {
+            "min_value": 0,
+            "max_value": 0.013
+        },
+        "average": {
+            "min_value": 0.013,
+            "max_value": 0.167
+        },
+        "weak": {
+            "min_value": 0.167,
+            "max_value": 1.251
+        }
+    },
+    "cornering_count_per_moving_hr": {
+        "guardrail": {
+            "min_value": 1,
+            "max_value": 10
+        },
+        "has_color_scheme": true,
+        "strong": {
+            "min_value": 0,
+            "max_value": 0.077
+        },
+        "average": {
+            "min_value": 0.077,
+            "max_value": 1.47
+        },
+        "weak": {
+            "min_value": 1.47,
+            "max_value": 10.437
+        }
+    },
+    "tailgating_count_per_moving_hr": {
+        "guardrail": {
+            "min_value": 1,
+            "max_value": 10
+        },
+        "has_color_scheme": true,
+        "strong": {
+            "min_value": 0,
+            "max_value": 0.035
+        },
+        "average": {
+            "min_value": 0.035,
+            "max_value": 0.736
+        },
+        "weak": {
+            "min_value": 0.736,
+            "max_value": 4.079
+        }
+    }
+}
